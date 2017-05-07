@@ -2,88 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb6a5f0-5199-46a7-9b1e-dfc3bfc8c227" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/blender2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/blender3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/blender4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/blender5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/blendersetup1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/github.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/gnu1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/gnu2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/gnu3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/gnu4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/gnu5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/gnu6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/logomotionfun.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sec1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sec2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sec3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/register.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/490.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/Capture.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/comingsoon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/dataimages/1-th.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/dataimages/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/dataimages/2-th.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/dataimages/3-th.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/dataimages/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/detector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/doc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/hardware.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/juan.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/pictures/daniel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/pictures/don.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/pictures/equipment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/pictures/francis.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/pictures/gabe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/pictures/gabriel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/pictures/githublogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/pictures/juan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/pictures/ki.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/pictures/vio.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/proposal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/readme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/ErisHControlPlugin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/ErisHThumbnailPlugin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/LightBox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/LoadingGIF.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/PopUpInfoPlugin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/RoundProgressBar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/ShutterTransition.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/SildeCountPlugin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/engine.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/ext/Dotted_bulletBackgroundImage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/ext/basicShadowImageUrl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/ext/control_fullScreen_url.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/ext/control_pause_url.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/ext/control_prev_next_url.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/hisliderCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/hisliderlgclosered.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/jquery.easing.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/jquery.hislider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/lightbox-64-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/lightboxborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/lightboxborder1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/lightboxinfobg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/nextlabel.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/play-32-32-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/play-64-64-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/prevlabel.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juan/sliderengine/template.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/juan/dataimages/2.jpg" afterPath="$PROJECT_DIR$/assets/images/two.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -330,12 +248,12 @@
       <option name="presentableId" value="Default" />
       <updated>1492544791527</updated>
       <workItem from="1492544793288" duration="882000" />
-      <workItem from="1494115416872" duration="1270000" />
+      <workItem from="1494115416872" duration="1502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2152000" />
+    <option name="totallyTimeSpent" value="2384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="338" y="25" width="1471" height="1200" extended-state="0" />
@@ -346,7 +264,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7879061" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3262069" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
