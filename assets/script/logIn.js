@@ -62,8 +62,8 @@ $(".num").hover(
 $(".btn-default").click(function(){
     event.preventDefault();
     var myObj = {
-        name: $("#username-email").value(),
-        password: $("#password").value()
+        name: $("#username-email").val(),
+        password: $("#password").val()
     };
     console.log(myObj);
 });
