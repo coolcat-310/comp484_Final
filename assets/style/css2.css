@@ -1,0 +1,185 @@
+/* ---JUAN NAVARRETE FRIDAY MAIN PICTURE to RESIZE ITSELF!! */
+.img-responsive {
+    max-width: 100%;
+}
+
+/* ----PAGE "IN" FROM TOP */
+#page {
+    margin: 5px;
+}
+
+/* -----SPACING IN LINES */
+p {
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4 {
+    color: #24a3ff;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin: 0 0 .5em 0;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 2.0em;
+}
+
+h4 {
+    font-size: 2.5em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+body {
+    font-family: arial;
+    font-size: 80%;
+    line-height: 1.2em;
+    max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+    /*noinspection CssOverwrittenProperties*/
+    margin: 0;
+    background: #eee;
+}
+
+/* -----UPPERLEFTHAND LOGO AREA */
+#logo {
+    width: 65%;
+    margin-top: 5px;
+    font-family: georgia;
+    display: inline-block;
+}
+
+/* -------NAVIGATION BUTTON */
+#nav {
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+#nav ul {  }
+
+#nav ul li {
+    display: inline-block;
+    height: 55px;
+}
+
+                     /* -------BOXES AND ROUNDED CORNER */
+#nav ul li a {
+    padding: 20px;
+    background: #24a3ff;
+    border-radius: 5px 1px 10px;
+    color: white;
+}
+
+#nav ul li a:hover {
+    background-color: #24a3ff;
+    box-shadow: 0px 1px 1px #666;
+}
+
+/*when navigation menu clicked, changes to light gray */
+
+#nav ul li a:active {
+    background-color: #a1a4a8;
+}
+
+#content {
+    margin: 50px 0;
+    background: white;
+    padding: 30px;
+    clear: both;
+}
+
+#footer {
+    border-bottom: 1px #ccc solid;
+    margin-bottom: 10px;
+}
+
+#footer p {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 80%;
+    color: grey;
+}
+
+/* SEVERAL STYLES AT ONCE, I WANT "FLOATING" FEEL SHADOW by a , */
+#content,
+ul li a {
+    box-shadow: 0px 3px 3px gray;
+}
+
+/* -----------------TABLE AREA CSS------- */
+th, td {
+    margin: 0;
+    text-align: center;
+    border-collapse: collapse;
+    outline: 1px solid #e3e3e3;
+}
+
+td {
+    padding: 10px 10px;
+}
+
+th {
+    background: #666;
+    color: white;
+    padding: 5px 10px;
+}
+
+td:hover {
+    cursor: pointer;
+    background: #666;
+    color: white;
+}
+
+/* -----------------ACCORDION PAGE 2------- */
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+
+div.panel.show {
+    display: block;
+}
+
+/* -----------------LATEST FORM------- */
+
+  #aboutMe {
+    color: #24a3ff;
+}
