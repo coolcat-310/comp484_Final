@@ -1,9 +1,41 @@
-/**
- * Created by juancarlosnavarrete on 4/21/17.
- */
 
+function fib(num) {
+    if (num == 0)
+        return num;
+    else if (num == 1)
+        return num;
+    else
+        return fib(num - 1) + fib(num - 2);
+}
 
+function exp(num) {
+    if (num == 0)
+        return 1;
+    else
+        return 2 * exp(num -1);
+}
 
+$("#exp_button").click(function () {
+    var num = $("#exp").val();
+    if(isNaN(num)) {
+        document.getElementById('exp_result').innerHTML = "";
+        alert("Please enter a valid number");
+    } else {
+        var result = exp(num);
+        document.getElementById('exp_result').innerHTML = "<p>The result is: " + result + "</p>";
+    }
+});
+
+$("#fib_button").click(function () {
+    var num = $("#fib").val();
+   if(isNaN(num)) {
+       document.getElementById('fib_result').innerHTML = "";
+       alert("Please enter a valid number");
+    } else {
+       var result = fib(num);
+       document.getElementById('fib_result').innerHTML = "<p>The result is: " + result + "</p>";
+   }
+});
 
 $( document ).click(function() {
     /***
