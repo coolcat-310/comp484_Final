@@ -25,3 +25,13 @@ $(".num").hover(
         $(this).find("span:last").remove();
     }
 );
+
+
+$(".btn-default").click(function(){
+    event.preventDefault();
+    var myObj = {
+        name: $("#username-email").value(),
+        password: $("#password").value()
+    };
+    console.log(myObj);
+});
