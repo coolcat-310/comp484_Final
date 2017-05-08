@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+{{--@extends('layouts.app')--}}
+
+{{--@section('content')--}}
+        <!DOCTYPE html>
 <html>
 
 <head>
@@ -7,7 +10,7 @@
     <meta name="Juan Navarrete and Gabriel Strutevant" content="Juan and Gabriel"/>
     <meta name="FINAL PROJECT" content="final project"/>
 
-    <link rel="stylesheet" href="assets/style/css.css" type="text/css"/>
+    <link rel="stylesheet" href={{asset("style/css.css") }} type="text/css"/>
 
 </head>
 <body>
@@ -19,8 +22,8 @@
 
 
         <!------------------- LOGO HERE----------------------->
-        <img src="assets/images/logomotionfun.jpg" height="51" width="120" alt="description here"/>
-        <!--<img src="assets/images/logomotionfun.jpg" height="51" width="120" alt="description here"/>-->
+        <img src="images/logomotionfun.jpg" height="51" width="120" alt="description here"/>
+        <!--<img src="images/logomotionfun.jpg" height="51" width="120" alt="description here"/>-->
 
 
     </div>
@@ -29,10 +32,10 @@
         <ul>
 
             <!----TEXT SPOT-TOP header: ABOUT ME will link to bottom/page2 ------>
-            <li><a href="#about">About Me</a></li>
+            <li><a href="#about">About Us</a></li>
             <li><a href="#video">Video</a></li>
             <li><a href="#math">Math Functions</a></li>
-            <li><a href="access.html">Get Started</a></li>
+            <li><a href="{{ url('register') }}">Get Started</a></li>
         </ul>
     </div>
 
@@ -42,7 +45,7 @@
         <h3>Welcome to Motion Fun</h3>
         <br />
 
-        <p><img class="img-responsive" src="assets/images/two.jpg" alt=""></p>
+        <p><img class="img-responsive" src="images/two.jpg" alt=""></p>
         <br />
 
 
@@ -247,7 +250,7 @@
                 <td width="250">
 
 
-                    <h2><img src="assets/images/sec1.jpg" height="50" width="50"
+                    <h2><img src="images/sec1.jpg" height="50" width="50"
                              alt="description"/>SECTION 1 </h2>
                     <p>
                         This brief intro video will highlight :
@@ -261,7 +264,7 @@
 
 
                 <td width="250">
-                    <h2><img src="assets/images/sec2.jpg" height="50" width="50"
+                    <h2><img src="images/sec2.jpg" height="50" width="50"
                              alt="description here"/>SECTION 2 </h2>
                     <p>
                         Program reads file and displays coordinates and then moves object to new coordinate position.
@@ -270,7 +273,7 @@
 
 
                 <td width="250">
-                    <h2><img src="assets/images/sec3.jpg" height="50" width="50"
+                    <h2><img src="images/sec3.jpg" height="50" width="50"
                              alt="description here"/>SECTION 3 </h2>
                     <p> Progress Update 2:Program reads raw data and produces an animated video.
                     </p>
@@ -302,7 +305,7 @@
         <HR>
         <h2>CONTACT US ON GITHUB</h2>
         <a href="https://github.com/coolcat-310/comp484_Final">
-            <img src="assets/images/github.jpg" height="35" width="35" alt="description"/></a>
+            <img src="images/github.jpg" height="35" width="35" alt="description"/></a>
         <!--------------------- DON'T DELETE THESE DIVS !!!!!!!!--------------------------->
     </div>
 </div>
@@ -311,6 +314,7 @@
 <script src="https://code.jquery.com/jquery-1.12.4.js"
         integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
         crossorigin="anonymous"></script>
-<script src="assets/script/logIn.js"></script>
+<script src="script/logIn.js"></script>
 </body>
 </html>
+{{--@endsection--}}
