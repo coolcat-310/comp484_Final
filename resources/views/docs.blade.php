@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Documentation</title>
+    <title>Motion Fun - Documentation</title>
 
     <meta name="Juan Navarrete and Gabriel Strutevant" content="Juan and Gabriel"/>
     <meta name="FINAL PROJECT" content="final project"/>
@@ -18,13 +18,13 @@
 <!------------------- AFTER HERE, DISPLAYS ON WEBPAGE ----------------------->
 <div id="page">
     <div id="logo">
-        <h1><a href="/" id="logoLink"></a></h1>
-
-
-        <!------------------- LOGO HERE----------------------->
-        <img src="images/logomotionfun.jpg" height="51" width="120"
-             alt="description here"/>
-
+        <h1>
+            <a href="/" id="logoLink">
+                <!------------------- LOGO HERE----------------------->
+                <img src="images/logomotionfun.jpg" height="51" width="120"
+                     alt="Motion Fun Logo"/>
+            </a>
+        </h1>
 
     </div>
     <!----------------------- NAVIGATION ------------------------------>
@@ -33,7 +33,14 @@
 
             <!----TEXT SPOT-TOP header: ABOUT ME will link to bottom/page2 ------>
             <li><a href="{{url('/')}}">home</a></li>
-            <li><a href="{{ url('logout') }}">Log out</a></li>
+            <li><a href="{{ url('/') }}#about">About Us</a></li>
+            <li><a href="{{ url('/') }}#video">Video</a></li>
+            <li><a href="{{ url('/') }}#math">Math Functions</a></li>
+            <li><a href="{{ route('logout') }}"
+                   onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a></li>
+
+            <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                  style="display: none;">{{ csrf_field() }}</form>
         </ul>
     </div>
 
@@ -41,7 +48,7 @@
     <!-------------------- MAIN CONTENT  H2 -------------------------->
     <div id="content">
         <h3>OUR DOCUMENTATION</h3>
-        <br>
+        <br/>
 
 
         <div id="page">
@@ -88,7 +95,7 @@
                             <li>Blender</li>
                             <li>A webGL enabled brower - *google chrome is fine</li>
                         </ul>
-                        <br>
+                        <br/>
                         <p><b>Blender:</b></p>
                         <p>
                             Blender is a free and open source 3D creation suite. It supports the entirety of the 3D
@@ -113,46 +120,31 @@
                             <li>FreeBSD 64-bit only</li>
                             <a href="https://www.blender.org/download/">https://www.blender.org/download/</a>
                         </ul>
-                        <p><br>
+                        <p><br/>
                             Run installer it will usually be located at your download folder
                         </p>
                         <img class="toggle" src="images/blendersetup1.jpg" alt="some_text"
-                             style="width:504px;height:378px;"><br><br>
+                             style="width:504px;height:378px;"><br/><br/>
                         <img class="toggle" src="images/blender2.jpg" alt="some_text"
-                             style="width:504px;height:378px;"><br><br>
+                             style="width:504px;height:378px;"><br/><br/>
                         <img class="toggle" src="images/blender3.jpg" alt="some_text"
-                             style="width:504px;height:378px;"><br><br>
+                             style="width:504px;height:378px;"><br/><br/>
                         <img class="toggle" src="images/blender4.jpg" alt="some_text"
-                             style="width:504px;height:378px;"><br><br>
+                             style="width:504px;height:378px;"><br/><br/>
                         <img class="toggle" src="images/blender5.jpg" alt="some_text"
-                             style="width:504px;height:378px;"><br><br>
+                             style="width:504px;height:378px;"><br/><br/>
 
                         <p>
-                            GNU/Linux
+                            Ubuntu
                         </p>
-                        <img class="toggle" src="images/gnu1.jpg" alt="some_text"
-                             style="width:504px;height:378px;"><br><br>
-                        <img class="toggle" src="images/gnu2.jpg" alt="some_text"
-                             style="width:504px;height:378px;"><br><br>
-                        <img class="toggle" src="images/gnu3.png" alt="some_text"
-                             style="width:504px;height:378px;"><br><br>
-
-                        <p>Create a new folder inside your Home folder. Extract the contents of the tarball into that
-                            folder. In the screenshot above, we used the name Programs for this folder.
-                        </p>
-                        <img class="toggle" src="images/gnu4.png" alt="some_text"
-                             style="width:504px;height:378px;"><br><br>
-                        <p>Make the blender file executable. You can do this by right-clicking the blender file and
-                            clicking on Properties. Then select the Permissions tab and select the Allow executing file
-                            as
-                            program option.
-                        </p>
-                        <img class="toggle" src="images/gnu5.png" alt="some_text"
-                             style="width:504px;height:378px;"><br><br>
+                        <img class="toggle" src="images/ubuntu-blender.png" alt="some_text"
+                             style="width:504px;height:378px;"><br/><br/>
                         <p>
-                            Create a short cut
+                            Run the command shown above.
+                            Blender is now installed
                         </p>
-                        <br>
+
+                        <br/>
                         <p><b>Clone repository:</b></p>
                         <ol>
                             <li class="num">On GitHub, navigate to the main page of the repository</li>
@@ -172,12 +164,12 @@
                         <p><b>Sample Code:</b></p>
                         <p>Sample data is a predefine motion that is safe as a text file in datalog.txt</p>
 
-                        <img src="images/gnu6.png" alt="some_text" style="width:900px;height:460px;"><br><br>
+                        <img src="images/gnu6.png" alt="some_text" style="width:900px;height:460px;"><br/><br/>
 
                     </div>
                 </div>
             </div>
-            <br>
+            <br/>
 
         </div>
         <!--End of Page-->
@@ -191,10 +183,8 @@
         <!--------------------- DON'T DELETE THESE DIVS !!!!!!!!--------------------------->
     </div>
 </div>
-<div>
-</div>
 <!--------------------- DONT' DELETE THESE DIVS !!!!! --------------------------->
-<br>
+<br/>
 <script src="https://code.jquery.com/jquery-1.12.4.js"
         integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
         crossorigin="anonymous"></script>

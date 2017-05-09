@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Motion Funnnn</title>
+    <title>Motion Fun</title>
 
     <meta name="Juan Navarrete and Gabriel Strutevant" content="Juan and Gabriel"/>
     <meta name="FINAL PROJECT" content="final project"/>
@@ -15,13 +15,13 @@
 <!------------------- AFTER HERE, DISPLAYS ON WEBPAGE ----------------------->
 <div id="page">
     <div id="logo">
-        <h1><a href="/" id="logoLink"></a></h1>
-
-
-        <!------------------- LOGO HERE----------------------->
-        <img src="images/logomotionfun.jpg" height="51" width="120" alt="description here"/>
-        <!--<img src="images/logomotionfun.jpg" height="51" width="120" alt="description here"/>-->
-
+        <h1>
+            <a href="/" id="logoLink">
+                <!------------------- LOGO HERE----------------------->
+                <img src="images/logomotionfun.jpg" height="51" width="120" alt="Motion Fun Logo"/>
+                <!--<img src="images/logomotionfun.jpg" height="51" width="120" alt="description here"/>-->
+            </a>
+        </h1>
 
     </div>
     <!----------------------- NAVIGATION ------------------------------>
@@ -33,10 +33,15 @@
             <li><a href="#video">Video</a></li>
             <li><a href="#math">Math Functions</a></li>
             @if( Auth::user())
-                <li><a href="{{ url('docs') }}">Documentation</a> </li>
-                <li><a href="{{ url('logout') }}">Log out</a> </li>
+                <li><a href="{{ url('docs') }}">Documentation</a></li>
+                <li><a href="{{ route('logout') }}"
+                       onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+                </li>
+
+                <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                      style="display: none;">{{ csrf_field() }}</form>
             @else
-                <li><a href="{{ url('register') }}">Get Started</a></li>
+                <li><a href="{{ url('login') }}">Log in</a></li>
             @endif
         </ul>
     </div>
@@ -230,28 +235,15 @@
         <h2>VIDEOS</h2> <br/>
         <a name="video"></a>
 
-        <figure class="third" width="100%">
-            <iframe src="https://www.youtube.com/embed/LVmcA57MBFI?ecver=2"
-                    width="31" height="150" frameborder="0"
-                    allowfullscreen>
-            </iframe>
-            <iframe src="https://www.youtube.com/embed/cUs9kpYyd5A?ecver=2"
-                    width="31" height="150" frameborder="0"
-                    allowfullscreen>
-            </iframe>
-            <iframe src="https://www.youtube.com/embed/MxXa0KTxzA8?ecver=2"
-                    width="31" height="150" frameborder="0"
-                    allowfullscreen>
-            </iframe>
-        </figure>
-        <br/><br/>
-
         <table width="100%" cellpadding="15" cellspacing="0" align="center">
             <tr>
-
-                <td width="31%">
-
-
+                <td width="33%">
+                    <br />
+                    <iframe src="https://www.youtube.com/embed/LVmcA57MBFI?ecver=2"
+                            width="100%" height="150" frameborder="0"
+                            allowfullscreen>
+                    </iframe>
+                    <br/><br/><br/>
                     <h2><img src="images/sec1.jpg" height="50" width="50"
                              alt="description"/>SECTION 1 </h2>
                     <p>
@@ -263,27 +255,32 @@
                         Future Vision
                     </p>
                 </td>
-
-
-                <td width="31%">
+                <td width="33%">
+                    <iframe src="https://www.youtube.com/embed/cUs9kpYyd5A?ecver=2"
+                            width="100%" height="150" frameborder="0"
+                            allowfullscreen>
+                    </iframe>
+                    <br/><br/><br/>
                     <h2><img src="images/sec2.jpg" height="50" width="50"
                              alt="description here"/>SECTION 2 </h2>
                     <p>
                         Program reads file and displays coordinates and then moves object to new coordinate position.
                     </p>
                 </td>
-
-
-                <td width="31%">
+                <td width="33%">
+                    <iframe src="https://www.youtube.com/embed/MxXa0KTxzA8?ecver=2"
+                            width="100%" height="150" frameborder="0"
+                            allowfullscreen>
+                    </iframe>
+                    <br/><br/><br/>
                     <h2><img src="images/sec3.jpg" height="50" width="50"
                              alt="description here"/>SECTION 3 </h2>
                     <p> Progress Update 2:Program reads raw data and produces an animated video.
                     </p>
                 </td>
-
+                {{--</figure>--}}
             </tr>
         </table>
-
         <br/>
         <br/>
         <br/>
