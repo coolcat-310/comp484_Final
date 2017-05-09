@@ -228,26 +228,26 @@
         <h2>VIDEOS</h2> <br />
         <a name="video"></a>
 
-        <figure class="third">
+        <figure class="third" width="100%">
             <iframe src="https://www.youtube.com/embed/LVmcA57MBFI?ecver=2"
-                    width="300" height="150" frameborder="0"
+                    width="31" height="150" frameborder="0"
                     allowfullscreen>
             </iframe>
             <iframe src="https://www.youtube.com/embed/cUs9kpYyd5A?ecver=2"
-                    width="300" height="150" frameborder="0"
+                    width="31" height="150" frameborder="0"
                     allowfullscreen>
             </iframe>
             <iframe src="https://www.youtube.com/embed/MxXa0KTxzA8?ecver=2"
-                    width="300" height="150" frameborder="0"
+                    width="31" height="150" frameborder="0"
                     allowfullscreen>
             </iframe>
         </figure>
         <br /><br />
 
-        <table width="1000" cellpadding="15" cellspacing="0" align="center">
+        <table width="100%" cellpadding="15" cellspacing="0" align="center">
             <tr>
 
-                <td width="250">
+                <td width="31%">
 
 
                     <h2><img src="images/sec1.jpg" height="50" width="50"
@@ -263,7 +263,7 @@
                 </td>
 
 
-                <td width="250">
+                <td width="31%">
                     <h2><img src="images/sec2.jpg" height="50" width="50"
                              alt="description here"/>SECTION 2 </h2>
                     <p>
@@ -272,7 +272,7 @@
                 </td>
 
 
-                <td width="250">
+                <td width="31%">
                     <h2><img src="images/sec3.jpg" height="50" width="50"
                              alt="description here"/>SECTION 3 </h2>
                     <p> Progress Update 2:Program reads raw data and produces an animated video.
