@@ -1,7 +1,4 @@
-{{--@extends('layouts.app')--}}
-
-{{--@section('content')--}}
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -10,7 +7,7 @@
     <meta name="Juan Navarrete and Gabriel Strutevant" content="Juan and Gabriel"/>
     <meta name="FINAL PROJECT" content="final project"/>
 
-    <link rel="stylesheet" href={{asset("style/css.css") }} type="text/css"/>
+    <link rel="stylesheet" href="style/css.css" type="text/css"/>
 
 </head>
 <body>
@@ -35,7 +32,12 @@
             <li><a href="#about">About Us</a></li>
             <li><a href="#video">Video</a></li>
             <li><a href="#math">Math Functions</a></li>
-            <li><a href="{{ url('register') }}">Get Started</a></li>
+            @if( Auth::user())
+                <li><a href="{{ url('docs') }}">Documentation</a> </li>
+                <li><a href="{{ url('logout') }}">Log out</a> </li>
+            @else
+                <li><a href="{{ url('register') }}">Get Started</a></li>
+            @endif
         </ul>
     </div>
 
@@ -43,18 +45,18 @@
     <!-------------------- MAIN CONTENT  H2 -------------------------->
     <div id="content">
         <h3>Welcome to Motion Fun</h3>
-        <br />
+        <br/>
 
         <p><img class="img-responsive" src="images/two.jpg" alt=""></p>
-        <br />
+        <br/>
 
 
         <!----------------ACCORDION------------------------------------>
 
-        <h2>ABOUT MOTION FUN</h2> <br />
+        <h2>ABOUT MOTION FUN</h2> <br/>
         <a name="about"></a>
-        <br />
-        <br />
+        <br/>
+        <br/>
 
         <button class="accordion">OUR GOAL</button>
         <div class="panel">
@@ -66,7 +68,7 @@
                         Blender is an industry standard 3D animation suite, that is free for all users. Our own plugin
                         for Blender will be used to receive and interpret data from the Raspberry Pi.
                     </li>
-                    <br />
+                    <br/>
                 </ul>
             </div>
             </p>
@@ -87,7 +89,7 @@
                         more disciplines. Our goal is to make motion capture technology affordable for students and the
                         general public.
                     </li>
-                    <br />
+                    <br/>
                 </ul>
             </div>
 
@@ -105,7 +107,7 @@
                         equipment. Collaboration between members will be done simultaneously which is why each member
                         needs their own set up.
                     </li>
-                    <br />
+                    <br/>
 
                 </ul>
             </div>
@@ -125,15 +127,15 @@
             }
         </script>
 
-        <br /><br /><br />
+        <br/><br/><br/>
 
 
         <!----------------ACCORDION------------------------------------>
 
-        <h2>EQUIPMENT</h2> <br />
+        <h2>EQUIPMENT</h2> <br/>
         <a name="about"></a>
 
-        <br /><br />
+        <br/><br/>
 
         <button class="accordion">SOFTWARE</button>
         <div class="panel">
@@ -148,7 +150,7 @@
                         Blender
                         A webGL enabled browser (google chrome is fine)
                     </li>
-                    <br />
+                    <br/>
 
 
                 </ul>
@@ -171,7 +173,7 @@
                         10 Jumper Wires
                         Soldering Iron w/solder
                     </li>
-                    <br />
+                    <br/>
 
 
                 </ul>
@@ -199,7 +201,7 @@
                         FreeBSD 64-bit only
                         https://www.blender.org/download/
                     </li>
-                    <br />
+                    <br/>
 
 
                 </ul>
@@ -221,11 +223,11 @@
                 }
             }
         </script>
-        <br /><br /><br />
+        <br/><br/><br/>
 
 
         <!----------------VIDEO SECTION------------------------------------>
-        <h2>VIDEOS</h2> <br />
+        <h2>VIDEOS</h2> <br/>
         <a name="video"></a>
 
         <figure class="third">
@@ -242,7 +244,7 @@
                     allowfullscreen>
             </iframe>
         </figure>
-        <br /><br />
+        <br/><br/>
 
         <table width="1000" cellpadding="15" cellspacing="0" align="center">
             <tr>
@@ -282,24 +284,24 @@
             </tr>
         </table>
 
-        <br />
-        <br />
-        <br />
+        <br/>
+        <br/>
+        <br/>
         <h3>Math Functions</h3>
         <a name="math"></a>
-        <br />
+        <br/>
         <h2>N<sup>th</sup> Fibbonacci Number</h2>
         <input id="fib" type="text" placeholder="Please enter a number">
         <button id="fib_button">Submit</button>
         <div id="fib_result"></div>
 
-        <br />
+        <br/>
         <h2>2<sup>n</sup> Calculator</h2>
         <input id="exp" type="text" placeholder="Please enter a number">
         <button id="exp_button">Submit</button>
         <div id="exp_result"></div>
         <!--------------------- COMMENTS END --------------------------->
-        <br /><br /><br /><br /><br /><br /><br /><br />
+        <br/><br/><br/><br/><br/><br/><br/><br/>
 
 
         <HR>
@@ -310,11 +312,10 @@
     </div>
 </div>
 <!--------------------- DONT' DELETE THESE DIVS !!!!! --------------------------->
-<br />
+<br/>
 <script src="https://code.jquery.com/jquery-1.12.4.js"
         integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
         crossorigin="anonymous"></script>
 <script src="script/logIn.js"></script>
 </body>
 </html>
-{{--@endsection--}}
