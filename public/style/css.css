@@ -14,7 +14,6 @@
 
 
 
-
 /* ----PAGE "IN" FROM TOP */
 #page{ margin: 5px; }
 
@@ -56,13 +55,20 @@ body{
     background: #eee;}
 
 
+#header_container{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+
+}
 
 /* -----UPPERLEFTHAND LOGO AREA */
 #logo{
-    width: 65%;
     margin-top: 5px;
     font-family: georgia;
     display: inline-block;
+    float: left;
+    vertical-align: middle;
 }
 /* -------NAVIGATION BUTTON */
 #nav{

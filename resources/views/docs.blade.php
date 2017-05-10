@@ -17,19 +17,14 @@
 
 <!------------------- AFTER HERE, DISPLAYS ON WEBPAGE ----------------------->
 <div id="page">
-    <div id="logo">
-        <h1>
-            <a href="/" id="logoLink">
-                <!------------------- LOGO HERE----------------------->
-                <img src="images/logomotionfun.jpg" height="51" width="120"
-                     alt="Motion Fun Logo"/>
-            </a>
-        </h1>
-
-    </div>
-    <!----------------------- NAVIGATION ------------------------------>
-    <div id="nav">
-        <ul>
+    <div id="header_container">
+        <a href="/" id="logoLink">
+            <!------------------- LOGO HERE----------------------->
+            <img src="images/logomotionfun.jpg" height="51" width="120" alt="Motion Fun Logo" id="logo"/>
+        </a>
+        <!----------------------- NAVIGATION ------------------------------>
+        <div id="nav">
+            <ul>
 
             <!----TEXT SPOT-TOP header: ABOUT ME will link to bottom/page2 ------>
             <li><a href="{{url('/')}}">home</a></li>

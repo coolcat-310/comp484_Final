@@ -14,36 +14,32 @@
 
 <!------------------- AFTER HERE, DISPLAYS ON WEBPAGE ----------------------->
 <div id="page">
-    <div id="logo">
-        <h1>
-            <a href="/" id="logoLink">
-                <!------------------- LOGO HERE----------------------->
-                <img src="images/logomotionfun.jpg" height="51" width="120" alt="Motion Fun Logo"/>
-                <!--<img src="images/logomotionfun.jpg" height="51" width="120" alt="description here"/>-->
-            </a>
-        </h1>
+    <div id="header_container">
+        <a href="/" id="logoLink">
+            <!------------------- LOGO HERE----------------------->
+            <img src="images/logomotionfun.jpg" height="51" width="120" alt="Motion Fun Logo" id="logo"/>
+        </a>
+        <!----------------------- NAVIGATION ------------------------------>
+        <div id="nav">
+            <ul>
 
-    </div>
-    <!----------------------- NAVIGATION ------------------------------>
-    <div id="nav">
-        <ul>
+                <!----TEXT SPOT-TOP header: ABOUT ME will link to bottom/page2 ------>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#math">Math Functions</a></li>
+                @if( Auth::user())
+                    <li><a href="{{ url('docs') }}">Documentation</a></li>
+                    <li><a href="{{ route('logout') }}"
+                           onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+                    </li>
 
-            <!----TEXT SPOT-TOP header: ABOUT ME will link to bottom/page2 ------>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#video">Video</a></li>
-            <li><a href="#math">Math Functions</a></li>
-            @if( Auth::user())
-                <li><a href="{{ url('docs') }}">Documentation</a></li>
-                <li><a href="{{ route('logout') }}"
-                       onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
-                </li>
-
-                <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                      style="display: none;">{{ csrf_field() }}</form>
-            @else
-                <li><a href="{{ url('login') }}">Log in</a></li>
-            @endif
-        </ul>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                          style="display: none;">{{ csrf_field() }}</form>
+                @else
+                    <li><a href="{{ url('login') }}">Log in</a></li>
+                @endif
+            </ul>
+        </div>
     </div>
 
 
@@ -238,7 +234,7 @@
         <table width="100%" cellpadding="15" cellspacing="0" align="center">
             <tr>
                 <td width="33%">
-                    <br />
+                    <br/>
                     <iframe src="https://www.youtube.com/embed/LVmcA57MBFI?ecver=2"
                             width="100%" height="150" frameborder="0"
                             allowfullscreen>
