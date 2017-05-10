@@ -8,7 +8,7 @@ The project that we are pursuing is an open-source implementation of interpretin
 ## Live Link
 https://coolcat-310.github.io/comp484_Final/
 
-## Slided
+## Slides
 https://docs.google.com/presentation/d/1al-OBWwZfRu04oNlbG3yp-HFXdeg9H2Hhfv8-UqA7sE/edit?usp=sharing
 
 
