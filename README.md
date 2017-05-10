@@ -8,6 +8,8 @@ The project that we are pursuing is an open-source implementation of interpretin
 ## Live Link
 http://104.236.174.194
 
+## Slides
+https://docs.google.com/presentation/d/1al-OBWwZfRu04oNlbG3yp-HFXdeg9H2Hhfv8-UqA7sE/edit?usp=sharing
 
 ## Technology Used
 
